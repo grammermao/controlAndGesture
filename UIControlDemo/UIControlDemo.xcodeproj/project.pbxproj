@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		757097251C20F15500B39548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097241C20F15500B39548 /* main.m */; };
+		757097281C20F15500B39548 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097271C20F15500B39548 /* AppDelegate.m */; };
+		757097301C20F15500B39548 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7570972F1C20F15500B39548 /* Images.xcassets */; };
+		757097331C20F15500B39548 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 757097311C20F15500B39548 /* LaunchScreen.xib */; };
+		7570973F1C20F15500B39548 /* UIControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7570973E1C20F15500B39548 /* UIControlDemoTests.m */; };
+		7570974D1C20F1BE00B39548 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 757097481C20F1BE00B39548 /* bar.png */; };
+		7570974E1C20F1BE00B39548 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 757097491C20F1BE00B39548 /* calendar.png */; };
+		7570974F1C20F1BE00B39548 /* Day8.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7570974A1C20F1BE00B39548 /* Day8.rtf */; };
+		757097501C20F1BE00B39548 /* jia.png in Resources */ = {isa = PBXBuildFile; fileRef = 7570974B1C20F1BE00B39548 /* jia.png */; };
+		757097511C20F1BE00B39548 /* jian.png in Resources */ = {isa = PBXBuildFile; fileRef = 7570974C1C20F1BE00B39548 /* jian.png */; };
+		757097541C20F1FB00B39548 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097531C20F1FB00B39548 /* RootViewController.m */; };
+		757097571C20F75100B39548 /* UISwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097561C20F75100B39548 /* UISwitchViewController.m */; };
+		7570975A1C20FD4B00B39548 /* UISliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097591C20FD4B00B39548 /* UISliderViewController.m */; };
+		7570975D1C21058D00B39548 /* UIAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7570975C1C21058D00B39548 /* UIAlertViewController.m */; };
+		757097601C210B0E00B39548 /* UIActivityIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7570975F1C210B0E00B39548 /* UIActivityIndicatorViewController.m */; };
+		757097631C21103900B39548 /* UIActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097621C21103900B39548 /* UIActionSheetViewController.m */; };
+		757097661C21150400B39548 /* UIStepperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097651C21150400B39548 /* UIStepperViewController.m */; };
+		757097691C213A2100B39548 /* UISegmentedControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097681C213A2100B39548 /* UISegmentedControlViewController.m */; };
+		7570976C1C213DFD00B39548 /* UIProgressViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7570976B1C213DFD00B39548 /* UIProgressViewViewController.m */; };
+		7570976F1C21436000B39548 /* UITextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7570976E1C21436000B39548 /* UITextViewViewController.m */; };
+		757097721C214B6800B39548 /* UIPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097711C214B6800B39548 /* UIPickerViewController.m */; };
+		757097751C21559F00B39548 /* UIDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097741C21559F00B39548 /* UIDatePickerViewController.m */; };
+		757097781C2159F600B39548 /* UIWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757097771C2159F600B39548 /* UIWebViewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		757097391C20F15500B39548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 757097171C20F15500B39548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7570971E1C20F15500B39548;
+			remoteInfo = UIControlDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7570971F1C20F15500B39548 /* UIControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		757097231C20F15500B39548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757097241C20F15500B39548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		757097261C20F15500B39548 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		757097271C20F15500B39548 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7570972F1C20F15500B39548 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		757097321C20F15500B39548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		757097381C20F15500B39548 /* UIControlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIControlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7570973D1C20F15500B39548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7570973E1C20F15500B39548 /* UIControlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIControlDemoTests.m; sourceTree = "<group>"; };
+		757097481C20F1BE00B39548 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		757097491C20F1BE00B39548 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		7570974A1C20F1BE00B39548 /* Day8.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Day8.rtf; sourceTree = "<group>"; };
+		7570974B1C20F1BE00B39548 /* jia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jia.png; sourceTree = "<group>"; };
+		7570974C1C20F1BE00B39548 /* jian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jian.png; sourceTree = "<group>"; };
+		757097521C20F1FB00B39548 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		757097531C20F1FB00B39548 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		757097551C20F75100B39548 /* UISwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwitchViewController.h; sourceTree = "<group>"; };
+		757097561C20F75100B39548 /* UISwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwitchViewController.m; sourceTree = "<group>"; };
+		757097581C20FD4B00B39548 /* UISliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISliderViewController.h; sourceTree = "<group>"; };
+		757097591C20FD4B00B39548 /* UISliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISliderViewController.m; sourceTree = "<group>"; };
+		7570975B1C21058D00B39548 /* UIAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewController.h; sourceTree = "<group>"; };
+		7570975C1C21058D00B39548 /* UIAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewController.m; sourceTree = "<group>"; };
+		7570975E1C210B0E00B39548 /* UIActivityIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityIndicatorViewController.h; sourceTree = "<group>"; };
+		7570975F1C210B0E00B39548 /* UIActivityIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityIndicatorViewController.m; sourceTree = "<group>"; };
+		757097611C21103900B39548 /* UIActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActionSheetViewController.h; sourceTree = "<group>"; };
+		757097621C21103900B39548 /* UIActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActionSheetViewController.m; sourceTree = "<group>"; };
+		757097641C21150400B39548 /* UIStepperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIStepperViewController.h; sourceTree = "<group>"; };
+		757097651C21150400B39548 /* UIStepperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIStepperViewController.m; sourceTree = "<group>"; };
+		757097671C213A2100B39548 /* UISegmentedControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISegmentedControlViewController.h; sourceTree = "<group>"; };
+		757097681C213A2100B39548 /* UISegmentedControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISegmentedControlViewController.m; sourceTree = "<group>"; };
+		7570976A1C213DFD00B39548 /* UIProgressViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIProgressViewViewController.h; sourceTree = "<group>"; };
+		7570976B1C213DFD00B39548 /* UIProgressViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIProgressViewViewController.m; sourceTree = "<group>"; };
+		7570976D1C21436000B39548 /* UITextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewViewController.h; sourceTree = "<group>"; };
+		7570976E1C21436000B39548 /* UITextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewViewController.m; sourceTree = "<group>"; };
+		757097701C214B6800B39548 /* UIPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPickerViewController.h; sourceTree = "<group>"; };
+		757097711C214B6800B39548 /* UIPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPickerViewController.m; sourceTree = "<group>"; };
+		757097731C21559F00B39548 /* UIDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDatePickerViewController.h; sourceTree = "<group>"; };
+		757097741C21559F00B39548 /* UIDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDatePickerViewController.m; sourceTree = "<group>"; };
+		757097761C2159F600B39548 /* UIWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewViewController.h; sourceTree = "<group>"; };
+		757097771C2159F600B39548 /* UIWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7570971C1C20F15500B39548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757097351C20F15500B39548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		757097161C20F15500B39548 = {
+			isa = PBXGroup;
+			children = (
+				757097481C20F1BE00B39548 /* bar.png */,
+				757097491C20F1BE00B39548 /* calendar.png */,
+				7570974A1C20F1BE00B39548 /* Day8.rtf */,
+				7570974B1C20F1BE00B39548 /* jia.png */,
+				7570974C1C20F1BE00B39548 /* jian.png */,
+				757097211C20F15500B39548 /* UIControlDemo */,
+				7570973B1C20F15500B39548 /* UIControlDemoTests */,
+				757097201C20F15500B39548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		757097201C20F15500B39548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7570971F1C20F15500B39548 /* UIControlDemo.app */,
+				757097381C20F15500B39548 /* UIControlDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		757097211C20F15500B39548 /* UIControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				757097261C20F15500B39548 /* AppDelegate.h */,
+				757097271C20F15500B39548 /* AppDelegate.m */,
+				757097521C20F1FB00B39548 /* RootViewController.h */,
+				757097531C20F1FB00B39548 /* RootViewController.m */,
+				7570972F1C20F15500B39548 /* Images.xcassets */,
+				757097311C20F15500B39548 /* LaunchScreen.xib */,
+				757097221C20F15500B39548 /* Supporting Files */,
+				757097551C20F75100B39548 /* UISwitchViewController.h */,
+				757097561C20F75100B39548 /* UISwitchViewController.m */,
+				757097581C20FD4B00B39548 /* UISliderViewController.h */,
+				757097591C20FD4B00B39548 /* UISliderViewController.m */,
+				7570975B1C21058D00B39548 /* UIAlertViewController.h */,
+				7570975C1C21058D00B39548 /* UIAlertViewController.m */,
+				7570975E1C210B0E00B39548 /* UIActivityIndicatorViewController.h */,
+				7570975F1C210B0E00B39548 /* UIActivityIndicatorViewController.m */,
+				757097611C21103900B39548 /* UIActionSheetViewController.h */,
+				757097621C21103900B39548 /* UIActionSheetViewController.m */,
+				757097641C21150400B39548 /* UIStepperViewController.h */,
+				757097651C21150400B39548 /* UIStepperViewController.m */,
+				757097671C213A2100B39548 /* UISegmentedControlViewController.h */,
+				757097681C213A2100B39548 /* UISegmentedControlViewController.m */,
+				7570976A1C213DFD00B39548 /* UIProgressViewViewController.h */,
+				7570976B1C213DFD00B39548 /* UIProgressViewViewController.m */,
+				7570976D1C21436000B39548 /* UITextViewViewController.h */,
+				7570976E1C21436000B39548 /* UITextViewViewController.m */,
+				757097701C214B6800B39548 /* UIPickerViewController.h */,
+				757097711C214B6800B39548 /* UIPickerViewController.m */,
+				757097731C21559F00B39548 /* UIDatePickerViewController.h */,
+				757097741C21559F00B39548 /* UIDatePickerViewController.m */,
+				757097761C2159F600B39548 /* UIWebViewViewController.h */,
+				757097771C2159F600B39548 /* UIWebViewViewController.m */,
+			);
+			path = UIControlDemo;
+			sourceTree = "<group>";
+		};
+		757097221C20F15500B39548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				757097231C20F15500B39548 /* Info.plist */,
+				757097241C20F15500B39548 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7570973B1C20F15500B39548 /* UIControlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7570973E1C20F15500B39548 /* UIControlDemoTests.m */,
+				7570973C1C20F15500B39548 /* Supporting Files */,
+			);
+			path = UIControlDemoTests;
+			sourceTree = "<group>";
+		};
+		7570973C1C20F15500B39548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7570973D1C20F15500B39548 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7570971E1C20F15500B39548 /* UIControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757097421C20F15500B39548 /* Build configuration list for PBXNativeTarget "UIControlDemo" */;
+			buildPhases = (
+				7570971B1C20F15500B39548 /* Sources */,
+				7570971C1C20F15500B39548 /* Frameworks */,
+				7570971D1C20F15500B39548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIControlDemo;
+			productName = UIControlDemo;
+			productReference = 7570971F1C20F15500B39548 /* UIControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		757097371C20F15500B39548 /* UIControlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757097451C20F15500B39548 /* Build configuration list for PBXNativeTarget "UIControlDemoTests" */;
+			buildPhases = (
+				757097341C20F15500B39548 /* Sources */,
+				757097351C20F15500B39548 /* Frameworks */,
+				757097361C20F15500B39548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7570973A1C20F15500B39548 /* PBXTargetDependency */,
+			);
+			name = UIControlDemoTests;
+			productName = UIControlDemoTests;
+			productReference = 757097381C20F15500B39548 /* UIControlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		757097171C20F15500B39548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "brook song";
+				TargetAttributes = {
+					7570971E1C20F15500B39548 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					757097371C20F15500B39548 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7570971E1C20F15500B39548;
+					};
+				};
+			};
+			buildConfigurationList = 7570971A1C20F15500B39548 /* Build configuration list for PBXProject "UIControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 757097161C20F15500B39548;
+			productRefGroup = 757097201C20F15500B39548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7570971E1C20F15500B39548 /* UIControlDemo */,
+				757097371C20F15500B39548 /* UIControlDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7570971D1C20F15500B39548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757097501C20F1BE00B39548 /* jia.png in Resources */,
+				7570974F1C20F1BE00B39548 /* Day8.rtf in Resources */,
+				757097511C20F1BE00B39548 /* jian.png in Resources */,
+				7570974D1C20F1BE00B39548 /* bar.png in Resources */,
+				7570974E1C20F1BE00B39548 /* calendar.png in Resources */,
+				757097331C20F15500B39548 /* LaunchScreen.xib in Resources */,
+				757097301C20F15500B39548 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757097361C20F15500B39548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7570971B1C20F15500B39548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7570975A1C20FD4B00B39548 /* UISliderViewController.m in Sources */,
+				757097281C20F15500B39548 /* AppDelegate.m in Sources */,
+				757097661C21150400B39548 /* UIStepperViewController.m in Sources */,
+				757097251C20F15500B39548 /* main.m in Sources */,
+				757097781C2159F600B39548 /* UIWebViewViewController.m in Sources */,
+				757097721C214B6800B39548 /* UIPickerViewController.m in Sources */,
+				7570976C1C213DFD00B39548 /* UIProgressViewViewController.m in Sources */,
+				7570975D1C21058D00B39548 /* UIAlertViewController.m in Sources */,
+				7570976F1C21436000B39548 /* UITextViewViewController.m in Sources */,
+				757097751C21559F00B39548 /* UIDatePickerViewController.m in Sources */,
+				757097631C21103900B39548 /* UIActionSheetViewController.m in Sources */,
+				757097571C20F75100B39548 /* UISwitchViewController.m in Sources */,
+				757097601C210B0E00B39548 /* UIActivityIndicatorViewController.m in Sources */,
+				757097541C20F1FB00B39548 /* RootViewController.m in Sources */,
+				757097691C213A2100B39548 /* UISegmentedControlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757097341C20F15500B39548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7570973F1C20F15500B39548 /* UIControlDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7570973A1C20F15500B39548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7570971E1C20F15500B39548 /* UIControlDemo */;
+			targetProxy = 757097391C20F15500B39548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		757097311C20F15500B39548 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757097321C20F15500B39548 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		757097401C20F15500B39548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		757097411C20F15500B39548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		757097431C20F15500B39548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		757097441C20F15500B39548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		757097461C20F15500B39548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIControlDemo.app/UIControlDemo";
+			};
+			name = Debug;
+		};
+		757097471C20F15500B39548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIControlDemo.app/UIControlDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7570971A1C20F15500B39548 /* Build configuration list for PBXProject "UIControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757097401C20F15500B39548 /* Debug */,
+				757097411C20F15500B39548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757097421C20F15500B39548 /* Build configuration list for PBXNativeTarget "UIControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757097431C20F15500B39548 /* Debug */,
+				757097441C20F15500B39548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		757097451C20F15500B39548 /* Build configuration list for PBXNativeTarget "UIControlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757097461C20F15500B39548 /* Debug */,
+				757097471C20F15500B39548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 757097171C20F15500B39548 /* Project object */;
+}
